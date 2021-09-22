@@ -16,6 +16,12 @@ The system will automatically list all college students as alumni on their gradu
 <p style="text-align:justify">
  Alumni will also be able to provide public posts on the system about possible job opportunities or other college related news. Since it is unlikely that alumni will check the system frequently but the system will be able to collate all public posts and create a newsletter that can be emailed to all alumni.
  </p>
+ <p>Technologies Used : MERN
+ Mongo DB
+ Express . js
+ React.js
+ Node.js
+</p>
 
 ---
 
