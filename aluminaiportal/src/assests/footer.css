@@ -1,0 +1,31 @@
+.Footer{
+    position: relative;
+    bottom:0;
+    height: 170px;
+    width: 100%;
+    background-color: rgb(49, 47, 47);
+}
+.foot-container{
+    width: 80%;
+    margin-left: 10%;
+    height: 100%;
+    padding: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+}
+.fstcol{
+    float: left;
+    text-align: justify;
+    /* background-color: red; */
+    width: 45%;
+    /* margin-left: -60%; */
+    /* margin-top: 2%; */
+}
+.fndcol{
+    text-align: justify;
+    width: 30%;
+}
+.quicklink{
+    text-align: justify;
+}

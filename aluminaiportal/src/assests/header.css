@@ -1,0 +1,63 @@
+* a{
+    text-decoration: none;
+    /* color: red; */
+}
+.Header{
+    width:100%;
+    position:fixed;
+    top:0;
+}
+.top-bar{
+    height: 10vh;
+    background-color: black;
+}
+.Main-Logo{
+    color: aliceblue;
+    padding-top: 0.2%;
+    text-align: left;
+    margin-left: 10%;
+    font-size: 40px;
+}
+.nav-mid-list{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 75%;
+    /* background-color: aliceblue; */
+    position: absolute;
+    left: 25%;
+    top: 1vh;
+}
+.nav-mid-list-item{
+    text-align: center;
+    width: 10%;
+    height: 90%;
+    /* background-color: blue; */
+    position: relative;
+    top:50%;
+    -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.nav-mid-list-item p{
+    position: relative;
+    top: -50%;
+}
+
+/* ========================================Media Query for smaller screens ======================== */
+@media screen and (max-width:700px) {
+    .Main-Logo{
+        padding-top: 2%;
+        font-size: 24px;
+    }
+    .nav-mid-list-item p{
+        display: none;
+    }
+}
+
+/* ==============================================super smaller size screens (mobile < 420px)========== */
+@media screen and (max-width:420px) {
+    .Main-Logo{
+        padding-top:2%;
+        margin-left: 5%;
+    }
+}
