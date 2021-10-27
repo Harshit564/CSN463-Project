@@ -1,6 +1,6 @@
 * a{
     text-decoration: none;
-    color: red;
+    /* color: red; */
 }
 .Header{
     width:100%;
@@ -23,28 +23,34 @@
     justify-content: space-evenly;
     width: 50%;
     height: 75%;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     position: absolute;
     left: 25%;
     top: 1vh;
 }
 .nav-mid-list-item{
     text-align: center;
-    width: 20%;
+    width: 10%;
     height: 90%;
-    background-color: blue;
+    /* background-color: blue; */
     position: relative;
     top:50%;
     -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-
+.nav-mid-list-item p{
+    position: relative;
+    top: -50%;
+}
 
 /* ========================================Media Query for smaller screens ======================== */
 @media screen and (max-width:700px) {
     .Main-Logo{
         padding-top: 2%;
         font-size: 24px;
+    }
+    .nav-mid-list-item p{
+        display: none;
     }
 }
 
