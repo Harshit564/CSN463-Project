@@ -1,0 +1,29 @@
+.profile_page_container{
+    width: 50vw;
+    height: max-content;
+    padding: 2%;
+    margin-left: 25vw;
+    background-color: rgb(11, 194, 87);
+    font-size: large;
+    font-weight: bold;
+    border: 5px solid black;
+    border-radius: 5em;
+}
+.inner_profile_box{
+    background-color: rgb(17, 59, 40);
+    padding: 0 7% 0 7% ;
+    border: 5px solid black;
+    border-radius: 5em;
+    text-align: justify;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.inner_profile_box p{
+    color: aquamarine;
+}
+.profile_title{
+    color: chartreuse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration-color: black;
+    margin: 0 20px 0 20px;
+}
