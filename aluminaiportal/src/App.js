@@ -3,21 +3,30 @@ import Header from './assests/header';
 import Footer from './assests/footer';
 import MainFeed from './mainFeed/mainfeed';
 import ProfilePage from './profile/profilePage';
-import {Routes,Route} from "react-router-dom";
+import { BrowserRouter as Router,Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      {/* <Routes> 
-        <Route path="/"  component={MainFeed}/>
-        <Route path="/profile"  component={ProfilePage}/>
-      </Routes> */}
-      <MainFeed /> 
-      <ProfilePage />
-      <Footer />
+    
       
-    </div>
+      
+      <div className="App">
+      <Header /> 
+      <MainFeed />
+        <ProfilePage />
+         <Footer />
+        </div>
+     
+      // <Router>
+      //   <Routes>
+      //   <Header />
+      //   <main className = "App">
+      //   <Route path='/profile' component={<ProfilePage />} />
+      //   <Route path='/' component={<MainFeed />} />
+      //   </main>
+      //   <Footer />
+      //   </Routes>
+      // </Router>
   );
 }
 

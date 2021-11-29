@@ -1,14 +1,15 @@
 * a{
     text-decoration: none;
-    /* color: red; */
+    color: aliceblue;
 }
 .Header{
     width:100%;
     position:fixed;
     top:0;
+    background-color: rgb(202, 208, 212);
 }
 .top-bar{
-    height: 10vh;
+    height: 12vh;
     background-color: black;
 }
 .Main-Logo{
@@ -21,26 +22,27 @@
 .nav-mid-list{
     display: flex;
     justify-content: space-evenly;
-    width: 50%;
+    width: 20%;
     height: 75%;
     /* background-color: aliceblue; */
     position: absolute;
-    left: 25%;
+    right: 10%;
     top: 1vh;
 }
 .nav-mid-list-item{
     text-align: center;
-    width: 10%;
+    width: fit-content;
     height: 90%;
     /* background-color: blue; */
     position: relative;
     top:50%;
     -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+    transform: translateY(-50%);
 }
-.nav-mid-list-item p{
+.nav-mid-list-item p span{
     position: relative;
-    top: -50%;
+    top:-5px;
+    margin-left: 5px;
 }
 
 /* ========================================Media Query for smaller screens ======================== */
@@ -49,8 +51,16 @@
         padding-top: 2%;
         font-size: 24px;
     }
-    .nav-mid-list-item p{
-        display: none;
+    .nav-mid-list  {
+        width: fit-content;
+        top: -5px;
+    }
+    .nav-mid-list-item{
+        margin-left: 40px;
+        text-align: center;
+    }
+    .top-bar{
+        height: 60px;
     }
 }
 
@@ -60,4 +70,5 @@
         padding-top:2%;
         margin-left: 5%;
     }
+    
 }

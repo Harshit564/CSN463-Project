@@ -4,7 +4,8 @@ function profilePage(){
     return(
         <div>
             <div className="profilePage">
-                hi this is profile page
+                {/* hi this is profile page */}
+                <h2>Welcome </h2>
                 <div className="profile_page_container">
                     <div className="inner_profile_box">
                         <p><span className="profile_title" >Name :</span>Harsh Pundir </p>
